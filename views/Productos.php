@@ -19,6 +19,7 @@
         <th class="text-left">CANTIDAD</th>
         <th class="text-left">PRECIO</th>
         <th class="text-left">IMAGEN</th>
+        <th class="text-left">AGREGAR CANTIDAD</th>
         </tr>
         <tbody class="table-hover">
             <?php
@@ -35,7 +36,8 @@
                                 "<td class='text-left'><a href=cambio.php?id='{$row['id']}'>{$row['descripcion']}</a> </td> ".
                                 "<td class='text-left'><a href=cambio.php?id='{$row['id']}'>{$row['cantidad']}</a> </td> ".
                                 "<td class='text-left'><a href=cambio.php?id='{$row['id']}'>{$row['precio']}</a> </td> ".
-                                "<td class='text-left'><a href=cambio.php?id='{$row['id']}'> <img src='{$row['imgUrl']}'></td></tr>";
+                                "<td class='text-left'><a href=cambio.php?id='{$row['id']}'> <img src='{$row['imgUrl']}'></td>".
+                                "<td class='text-left'><a href=cambioCantidad.php?id='{$row['id']}'>Añadir Cantidad</a> </td></tr>";
                             }
                         }
                         else

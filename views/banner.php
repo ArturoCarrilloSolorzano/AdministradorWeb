@@ -17,6 +17,7 @@
 			</div>
 			<div class="col-3 log-links">
 				<div class="log-link"><a href="anadir.php">Añadir Producto</a></div>
+				<div class="log-link"><a href="facturas.php">Facturas</a></div>
 			</div>
 		</div>
 	</div>
